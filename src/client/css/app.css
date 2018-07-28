@@ -1,0 +1,33 @@
+.simulator {
+    padding: 10px;
+    text-align: center;
+    background: #EEEEEE;
+}
+
+.elevator {
+    width: 152px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+    background: #CCCCCC;
+    border: 1px solid #999999;
+}
+
+.elevator.moving {
+    border: 1px solid #000000;
+}
+
+.elevator .floor-num {
+    width: 15px;
+    font-size: 10px;
+    color: black;
+    padding: 5px 2px;
+    text-align: center;
+    display: inline-block;
+    background: white;
+}
+
+.elevator .floor-num.active {
+    color: red;
+    font-weight: bold;
+}
